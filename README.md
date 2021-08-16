@@ -1,9 +1,10 @@
 # Pinciuc v2 ZF
 
 My personal website built with Zend Framework and using my XSLT Zend_View
-templating engine. Circa 2005-2008. This was definitely a work in progress at
-rewriting my original custom PHP website in Zend Framework so there is plenty
-of commented code and some unfinished classes and other files.
+templating engine (https://github.com/robp/pinciuc-lib/blob/master/php/Pinciuc/View/XSLT.php).
+Circa 2005-2008. This was definitely a work in progress at rewriting my
+original custom PHP website in Zend Framework so there is plenty of commented
+code and some unfinished classes and other files.
 
 No ORM, though it looks like I started to work on implementing `Zend_Db`.
 Instead I used a custom ODBC Db class and CRUD functions with SQL queries in
