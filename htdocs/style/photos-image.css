@@ -1,0 +1,14 @@
+/*
+-----------------------------------------------
+pinciuc.com photos style for individual image
+Author:   Rob Pinciuc
+Version:  27 Jan 2005
+----------------------------------------------- */
+
+/* Imported Styles
+----------------------------------------------- */
+@import url("photos.css");
+
+#header-image {
+  display:none;
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<tmx version="1.4">
+ <header datatype="winres" segtype="sentence" adminlang="en-us" srclang="en-ca" o-tmf="abc" >
+ </header>
+ <body>
+  <tu tuid='An error occurred'>
+   <tuv xml:lang="en"><seg>An error occurred</seg></tuv>
+   <tuv xml:lang="fr"><seg>Une erreur s'est produite</seg></tuv>
+  </tu>
+ </body>
+</tmx>

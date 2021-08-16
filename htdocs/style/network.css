@@ -1,0 +1,20 @@
+/*
+-----------------------------------------------
+pinciuc.com network style
+Author:   Rob Pinciuc
+Version:  25 Jul 2007
+----------------------------------------------- */
+
+/* Imported Styles
+----------------------------------------------- */
+@import url("photos.css");
+
+.rack th, .rack td {
+	text-align:center;
+	padding:5px;
+}
+
+.serverDescription th, .serverDescription td {
+	text-align:left;
+	vertical-align:top;
+}

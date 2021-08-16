@@ -1,0 +1,45 @@
+/*
+-----------------------------------------------
+pinciuc.com Google search style
+Author:   Rob Pinciuc
+Version:  20 May 2008
+----------------------------------------------- */
+
+#nav-search {
+  float:right;
+  margin-top:8px;
+  margin-bottom:0;
+  padding:0;
+}
+
+#searchbox,#searchbutton {
+  background:#666;
+  color:#ccc;
+  font-size:90%;
+  border:1px solid #333;
+  margin:0 4px 0 0;
+}
+
+#searchbox {
+  padding:3px;
+}
+#searchbutton {
+  padding:2px;
+  margin-right:10px;
+}
+#searchbox:hover,#searchbutton:hover {
+  background:#777;
+}
+#searchbox:focus,#searchbutton:focus {
+  background:#ccc;
+  color:#000;
+}
+
+.search_bottom {
+  padding:10px 0;
+  margin:10px 0;
+}
+
+.search_url {
+  color:#999;
+}

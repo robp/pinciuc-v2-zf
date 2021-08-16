@@ -1,0 +1,28 @@
+/*
+-----------------------------------------------
+pinciuc.com homepage style
+Author:   Rob Pinciuc
+Version:  27 Jan 2005
+----------------------------------------------- */
+
+/* Imported Styles
+----------------------------------------------- */
+@import url("home.css");
+
+.blog-entry-date {
+  text-align:left;
+  border-bottom:0;
+}
+#c-left {
+  float:left;
+  width:450px;
+  margin:0;
+  padding:0 8px 0 0;
+}
+#c-right {
+  float:left;
+  width:252px;
+  margin:0;
+  padding:0 0 0 8px;
+  border-left:1px dotted #ccc;
+}

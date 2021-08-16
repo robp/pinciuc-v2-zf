@@ -1,0 +1,15 @@
+/*
+-----------------------------------------------
+pinciuc.com google search results style
+Author:   Rob Pinciuc
+Version:  28 May 2006
+----------------------------------------------- */
+
+.search_bottom {
+  padding:10px 0;
+  margin:10px 0;
+}
+
+.search_url {
+  color:#999;
+}

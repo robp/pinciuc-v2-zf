@@ -1,0 +1,14 @@
+/*
+-----------------------------------------------
+pinciuc.com login style
+Author:   Rob Pinciuc
+Version:  27 Jan 2005
+----------------------------------------------- */
+
+/* Imported Styles
+----------------------------------------------- */
+@import url("base.css");
+
+#header-image {
+  height:75px;
+}

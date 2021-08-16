@@ -1,0 +1,15 @@
+# ZF config files
+application/config.xml
+
+# Doctrine files
+/.cache
+
+# Eclipse/Zend Studio files.
+/.project
+/.settings
+
+# OS files
+.DS_Store
+
+# Old SVN files
+.svn

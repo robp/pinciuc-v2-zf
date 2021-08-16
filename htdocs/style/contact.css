@@ -1,0 +1,54 @@
+/*
+-----------------------------------------------
+pinciuc.com contact form style
+Author:   Rob Pinciuc
+Version:  01 May 2008
+----------------------------------------------- */
+
+/* Imported Styles
+----------------------------------------------- */
+@import url("home.css");
+
+#contactForm input, #contactForm textarea, #contactForm label {
+  margin: 0;
+  margin-top: 12px
+}
+
+#contactForm label.required {
+  font-weight: bold;
+}
+
+#contactForm dt {
+  float: left;
+  width: 75px;
+  text-align: right;
+  clear: left;
+  margin: 0;
+  padding: 0;
+}
+
+#contactForm dd {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+#contactForm dd ul {
+  clear: left;
+  list-style-type: disc;
+  margin: 0;
+  padding: 0;
+}
+
+#contactForm ul.errors li {
+  font-style: italic;
+  color: #900;
+  margin: 0;
+  padding: 0;
+  margin-left: 88px;
+  margin-top: 5px;
+}
+
+#contactForm #submit {
+  width: auto;
+}

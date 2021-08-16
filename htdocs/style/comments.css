@@ -1,0 +1,20 @@
+/*
+-----------------------------------------------
+pinciuc.com comments style
+Author:   Rob Pinciuc
+Version:  20 May 2008
+----------------------------------------------- */
+
+/* Imported Styles
+----------------------------------------------- */
+@import url("idc-override.css");
+
+#comments {
+  clear:both;
+  width:auto;
+}
+
+#comments hr {
+  clear:both;
+  margin-bottom:10px;
+}

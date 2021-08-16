@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<configdata>
+  <production>
+    <errors>
+      <default>
+        <title>Unrecognized Error</title>
+        <description>An unrecognized error code was supplied.</description>
+      </default>
+      <code400>
+        <title>Bad Request</title>
+        <description>You did a bad, bad thing.</description>
+      </code400>
+      <code401>
+        <title>Unauthorized</title>
+        <description>You are not authorized to view the requested document. Beware of dog.</description>
+      </code401>
+      <code403>
+        <title>Forbidden</title>
+        <description>You are not authorized to view the requested document. Beware of dog.</description>
+      </code403>
+      <code404>
+        <title>Not Found</title>
+        <description>The document you requested could not be found. Please attempt to find another one.</description>
+      </code404>
+      <code405>
+        <title>Method Not Allowed</title>
+        <description>You just can't do that here. Try your little tricks someplace else, alright?</description>
+      </code405>
+      <code408>
+        <title>Request Timed Out</title>
+        <description>It took too long. We don't have all day, you know?</description>
+      </code408>
+      <code410>
+        <title>Gone</title>
+        <description>It's gone... where'd it go? Lemme know if you find it.</description>
+      </code410>
+      <code411>
+        <title>Length Required</title>
+        <description>For cryin' out loud, you gotta tell me how long it is.</description>
+      </code411>
+      <code412>
+        <title>Precondition Failed</title>
+        <description>What's a precondition, anyway? Whatever it is, it failed.</description>
+      </code412>
+      <code413>
+        <title>Request Entity Too Large</title>
+        <description>It's too big, I can't handle it!</description>
+      </code413>
+      <code414>
+        <title>Request URI Too Large</title>
+        <description>It's too big, I can't handle it!</description>
+      </code414>
+      <code415>
+        <title>Unsupported Media Type</title>
+        <description>Why don't you try something a little more supported? Like, say, Beer.</description>
+      </code415>
+      <code500>
+        <title>Internal Server Error</title>
+        <description>The server encountered a problem while attempting to fulfill your request. Tough break.</description>
+      </code500>
+      <code501>
+        <title>Not Implemented</title>
+        <description>We don't do that here. Try your little tricks someplace else, alright?</description>
+      </code501>
+      <code502>
+        <title>Bad Gateway</title>
+        <description>Why don't you go find a good one someplace else?</description>
+      </code502>
+      <code503>
+        <title>Service Unavailable</title>
+        <description>It's out of order.</description>
+      </code503>
+      <code506>
+        <title>Variant Also Varies</title>
+        <description>The varying variant varies by the variation of the multivariate variable.</description>
+      </code506>
+    </errors>
+  </production>
+  <staging extends="production">
+  </staging>
+</configdata>

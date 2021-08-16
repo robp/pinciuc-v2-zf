@@ -1,0 +1,241 @@
+/*
+-----------------------------------------------
+pinciuc.com photos style
+Author:   Rob Pinciuc
+Version:  27 Jan 2005
+----------------------------------------------- */
+
+/* Imported Styles
+----------------------------------------------- */
+@import url("base.css");
+
+body {
+  background:#eee url('../images/bg-grey.gif');
+  color:#000;
+} 
+
+#content {
+  background:#000 url('../images/gradient-light-000.gif') repeat-x;
+  color:#ccc;
+}
+
+input,textarea,select,button {
+  background:#000;
+  color:#ccc;
+}
+input:focus,select:focus,textarea:focus {
+  background:#333;
+  color:#ccc;
+}
+
+a {
+  color:#cc9;
+  border-bottom: 1px dotted #cc9;
+}
+a:hover {
+  border-bottom: 1px solid #cc9;
+}
+
+a.thumbnail {
+  border:1px solid #000;
+  margin-bottom:-50px;
+  padding-top:10px;
+  display:block;
+  width:148px;
+  height:168px;
+  text-decoration:none;
+}
+
+a.thumbnail:hover {
+  border:1px solid #000; 
+}
+
+a.thumbnail img {
+  padding:3px;
+  border:1px solid #333;
+}
+a.thumbnail:hover img {
+  border:1px solid #ccc;
+}
+
+ul.arrowed li {
+  background:url('/images/arrow-white.gif') no-repeat 1px .5em;
+  padding-left:15px;
+  text-indent:0;
+}
+ul.offsite li {
+  background:url('/images/offsite-greyonblack.png') no-repeat 1px .4em;
+  padding-left:20px;
+  text-indent:0;
+}
+ul.comment li {
+  background:url('/images/balloon-greyonblack.png') no-repeat 1px .3em;
+  padding-left:15px;
+  text-indent:0;
+}
+
+#header-image {
+  background:#000 url('../images/header-green.jpg') no-repeat;
+  width:750px;
+  height:75px;
+}
+
+#photos-browse {
+  margin:0;
+  padding:0;
+  padding-right:10px;
+  width:485px;
+  float:left;
+}
+
+#feature-galleries {
+  margin-top:37px;
+  padding:0;
+  border-left:1px dotted #999;
+  padding-left:10px;
+  width:213px;
+  float:left;
+}
+
+#gallery-title {
+  float:left;
+}
+
+#gallery-parents {
+  clear:both;
+  float:left;
+  margin-top:-12px;
+}
+
+#gallery-date {
+  margin-top:8px;
+  padding:0;
+  float:right;
+  font-size:12px;
+}
+
+#gallery-description {
+  clear:both;
+  padding-top:8px;
+}
+
+#maplink {
+  clear:both;
+}
+
+#gallery-pagelist {
+  clear:both;
+  text-align:center;
+  padding-top:8px;
+}
+
+#gallery-media-pagelist {
+  float:right;
+  margin-top:8px;
+}
+
+#gallery-container.narrow {
+  padding:0;
+}
+
+
+#gallery-image-container {
+  clear:both;
+  width:626px;
+  padding:10px 47px 0 47px;
+}
+
+#gallery-image-container-zoom {
+  clear:both;
+  width:auto;
+  padding:0;
+}
+
+#photo-title {
+  float:left;
+  margin:0;
+  padding:0;
+}
+
+#photo-zoom {
+  float:right;
+  margin:0;
+  padding:0;
+}
+
+#photo,#map {
+  clear:both;
+  text-align:center;
+  padding-bottom:10px;
+  padding-top:5px;
+}
+
+#map {
+  border:8px solid #fff;
+  margin:26px 0 26px 0;
+}
+
+#exif {
+  width:360px;
+  padding:0 133px;
+}
+#exif hr {
+  clear:both;
+  margin-bottom:10px;
+}
+#exif table {
+  clear:both;
+  border:0px;
+  margin:0px;
+  padding:0px;
+}
+#exif td {
+  padding:0px 10px;
+}
+
+.comments-gallery {
+  padding:10px 0 10px 140px;
+}
+
+.comments-media {
+  padding:0 0 10px 133px;
+}
+
+#comments hr {
+  clear:both;
+  margin-bottom:10px;
+}
+
+#gammascale {
+  text-align:center;
+  clear:both;
+  padding-top:20px;
+}
+
+#gammascale p {
+  text-align:left;
+}
+
+.gallery-container, .map-container {
+  clear:both;
+  width:auto;
+  padding:0 0 0 40px;
+}
+
+.gallery {
+  clear:both;
+  padding-top:10px;
+}
+
+.gallery ul {
+  margin:0 0 20px 0;
+}
+
+.gallery ul li {
+  width:150px;
+  height:180px;
+  margin:5px;
+  text-align:center;
+  float:left;
+}
+

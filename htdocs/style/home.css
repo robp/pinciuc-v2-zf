@@ -1,0 +1,121 @@
+/*
+-----------------------------------------------
+pinciuc.com homepage style
+Author:   Rob Pinciuc
+Version:  27 Jan 2005
+----------------------------------------------- */
+
+/* Imported Styles
+----------------------------------------------- */
+@import url("base.css");
+
+p.excerpt {
+  padding-bottom:5px;
+}
+
+h3.excerpt {
+  margin-bottom:0;
+  padding-top:8px;
+  border-top:1px dotted #ccc;
+}
+
+.blog-entry-body {
+  text-align:justify;
+  margin-bottom:0;
+  padding-bottom:5px;
+}
+
+.blog-entry-date {
+  text-align:right;
+  text-indent:0;
+  margin-top:2px;
+}
+
+.continue {
+  text-align:right;
+}
+
+.subsection {
+  background:#fff url('../images/gradient-light-fff.gif') repeat-x;
+  border-top:1px dotted #666;
+  padding-top:10px;
+  margin-top:20px;
+}
+
+ul.arrowed li {
+  background:url('/images/arrow-black.gif') no-repeat 1px .5em;
+  padding-left:15px;
+  text-indent:0;
+}
+ul.offsite li {
+  background:url('/images/offsite-greyonwhite.png') no-repeat 1px .4em;
+  padding-left:20px;
+  text-indent:0;
+}
+ul.comment li {
+  background:url('/images/balloon-greyonwhite.png') no-repeat 1px .3em;
+  padding-left:15px;
+  text-indent:0;
+}
+
+ul.divert {
+  padding:0 35px 0 35px;
+}
+ul.divert li {
+  background:url('/images/offsite-greyonwhite.png') no-repeat 1px .3em;
+  padding-left:20px;
+  text-indent:0;
+}
+
+#header-image {
+  background:#000 url('../images/header-blue.jpg') no-repeat;
+  width:750px;
+  height:100px;
+}
+
+#c-left {
+  float:left;
+  width:492px;
+  margin:0;
+  padding:0 8px 0 0;
+}
+#c-right {
+  float:left;
+  width:210px;
+  margin:0;
+  padding:0 0 0 8px;
+  border-left:1px dotted #ccc;
+}
+
+#feature-photo {
+  text-align:center;
+}
+#feature-photo img {
+  border:1px solid #000;
+}
+#feature-photo-shadow {
+  background:#999;
+  border:1px solid #ccc;
+  width:200px;
+  position:relative;
+  top:4px;
+  left:5px;
+}
+#feature-photo-frame {
+  background:#fff;
+  padding-bottom:15px;
+  border:1px solid #000;
+  width:200px;
+  position:relative;
+  top:-4px;
+  left:-5px;
+}
+#feature-photo-frame p {
+  margin:0;
+  padding:10px;
+}
+
+#comments hr {
+  clear:both;
+  margin-bottom:10px;
+}

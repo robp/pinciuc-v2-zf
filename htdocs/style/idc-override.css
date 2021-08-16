@@ -1,0 +1,1555 @@
+/*
+-----------------------------------------------
+pinciuc.com intense debate comments override style
+Author:   Rob Pinciuc
+Version:  20 May 2008
+
+Check this file source for outline of styles available:
+view-source:http://www.intensedebate.com/comment/847b4bd40ecc75118dc3c85a5450c50a/generic/1670981
+----------------------------------------------- */
+
+.idc-footer {
+	display:none;
+}
+
+#idc-container {
+	margin:0;
+	padding:0;
+}
+
+.idc-head h3 {
+	display:none;
+}
+
+.idc-new h3 {
+	display:none;
+}
+
+.idw-footer {
+	display:none;
+}
+
+/*
+view-source:http://www.intensedebate.com/js/genericCommentWrapper2.php?acct=847b4bd40ecc75118dc3c85a5450c50a&postid=laksjdfklj&title=kljadskfjkldsf&url=http://new.pinciuc.com/lakjdsflkjlfds
+
+#idc-container{
+
+	cursor:default;
+	margin:1em 0;
+	width:100%;
+	max-width:800px;
+	min-width:180px;
+	text-align:left;
+	letter-spacing:normal
+	!important;
+	position:relative;
+}
+
+
+
+#idc-container.idc-inline{
+
+clear:both;
+height:400px;
+margin:1.2em 0;
+overflow:auto;
+overflow-x:hidden;
+overflow-y:scroll;
+padding:0 8px 0 0;
+width:auto!important;
+}
+
+#idc-container .idc-cover,#idc-container .idc-new{
+background:none;
+float:left;
+padding:0;
+margin:0 0 1em;
+width:100%;
+}
+
+#idc-container div *{
+font-weight:normal;
+letter-spacing:0!important;
+margin:0;
+padding:0;
+text-indent:0;
+}
+
+#idc-container div div div{
+text-transform:none;
+}
+
+#idc-container img{
+border:none;
+background:none;
+padding:0;
+}
+
+#idc-container strong{
+font-weight:bold;
+}
+
+#idc-container a{
+background-image:none;
+outline:0!important;
+cursor:pointer!important;
+clear:none!important;
+float:none;
+font-weight:normal;
+display:inline;
+border:none!important;
+padding:0!important;
+}
+
+.idc-cover div,.idc-new div{
+background:none;
+float:left;
+margin:0;
+width:auto;
+font-size:13px;
+line-height:1.3em!important;
+overflow:visible;
+}
+
+#idc-container h3,#idc-container h4,.idc h6{
+background:none;
+border:none;
+letter-spacing:0;
+padding:0;
+margin:0;
+clear:none;
+text-align:left;
+font-weight:normal;
+}
+
+#idc-container h3{
+font-size:22px;
+line-height:1.3em;
+}
+
+#idc-container .idc-text{
+background:#fff url(http://intensedebate.com/themes/universal/images/idc-grey-0404.png) no-repeat -713px -121px;
+border:1px solid #ccc;
+border-top:1px solid #b0b0b0;
+color:#333;
+float:left;
+padding:3px;
+margin:0 4px 4px 0;
+font-size:12px;
+line-height:1.3em;
+font:normal 12px/1.3em Helvetica,Arial,sans-serif;
+}
+
+#idc-container textarea.idc-text{
+height:50px;
+margin:0 0 4px;
+min-height:50px;
+overflow:hidden;
+}
+
+#idc-container .idc-chk{
+border:none;
+margin:2px 2px 0 0;
+padding:0;
+width:auto;
+}
+
+#idc-container label{
+clear:none;
+float:left;
+line-height:1.3em;
+width:auto;
+}
+
+#idc-container ul,#idc-container li{
+background:none;
+display:block;
+float:left;
+border:none;
+margin:0;
+padding:0!important;
+}
+
+#idc-container li{
+list-style-type:none;
+}
+
+#idc-container .idc-right{
+float:right!important;
+}
+
+#idc-container span {
+display:inline;
+}
+
+#idc-container .idc-divide{
+float:left;
+width:50%;
+}
+
+.idc .idc-c.idc-reply .idc-c-t div{
+overflow:visible!important;
+}
+
+.idc .idc-loginlink{
+float:right;
+margin:-15px 0 0;
+padding:2px;
+}
+
+#idc-container .idc-measure{
+border:1px solid #fff;
+float:none;
+font:normal 12px/1.3em Helvetica,Arial,sans-serif!important;
+left:0;
+padding:3px;
+position:absolute;
+text-align:left;
+top:0;
+visibility:hidden;
+width:auto;
+z-index:-1;
+}
+
+.idc-loading{
+margin:2px 2px 0;
+}
+
+#idc-container .idc-c .idc-load{
+margin:0 4px;
+}
+
+#idc-container .idc-close{
+width:15px;
+height:15px;
+background:url(http://intensedebate.com/themes/universal/images/idc-transparent-0404.png) no-repeat 0 -56px;
+float:right;
+}
+
+#idc-container .idc-close span{
+display:none;
+}
+
+#idc-container .idc-close:hover{
+background-position:0 -71px;
+}
+
+#idc-container .idc-message{
+clear:both;
+float:none;
+margin:.5em 0;
+width:auto;
+}
+
+#idc-container .idc-text:hover{
+border:1px solid#aaa;
+border-top:1px solid #909090;
+}
+
+#idc-container .idc-focus{
+border:1px solid #c9e31a;
+border-top:1px solid #a0b513;
+}
+
+#idc-container .idc-hfield{
+outline:2px solid #f33;
+}
+
+#idc-container .idc-footer{
+border-top:1px solid;
+float:left;
+margin:1em 0 0;
+width:100%;
+}
+
+#idc-container .idc-footer div{
+width:100%;
+}
+
+#idc-container .idc-footer .idc-right{
+margin:4px 0 0;
+width:auto;
+}
+
+#idc-container .idc-footer .idc-divider{
+float:none;
+}
+
+#idc-container .idc-head{
+float:left;
+padding:20px 0 0;
+width:100%;
+}
+
+#idc-container .idc-head .idc-head{
+float:left;
+width:auto;
+clear:none;
+padding:0;
+}
+
+#idc-container .idc-head_action{
+background:url(http://intensedebate.com/themes/universal/images/idc-bg-0404.png) repeat-x 0 -300px;
+display:none;
+float:left;
+padding:1%;
+width:98%;
+}
+
+#idc-container .idc-head_b{
+width:100%;
+}
+
+#idc-container .idc-head_action strong{
+display:block;
+margin:0 0 .4em;
+}
+
+#idc-container .idc-head .idc-text{
+width:90%;
+}
+
+#idc-container .idc-head .idc-tools{
+float:right;
+}
+
+#idc-container .idc-user .idc-head_action.idc-user{
+padding:1%;
+width:98%;
+}
+
+#idc-container .idc-user .idc-user_i{
+padding:6px 0 0!important;
+}
+
+#idc-container .idc-user .idc-right{
+padding:6px 0 0!important;
+}
+
+#idc-container .idc-user_i a{
+display:inline;
+}
+
+.idc-openid .idc-openid,.idc-openid_signup .idc-openid_signup,.idc-notvalidated .idc-notvalidated,.idc-signup .idc-signup,.idc-login .idc-login,.idc-user .idc-user{
+display:block!important;
+}
+
+#idc-container .idc-thread{
+clear:both;
+float:left;
+width:100%;
+padding:.4em 0 0;
+}
+
+#idc-container .idc-thread_info,#idc-container .idc-thread-h{
+display:none;
+}
+
+#idc-container .idc-thread .idc-thread{
+border:none;
+width:auto;
+padding:0;
+}
+
+#idc-container .idc-thread-h{
+margin:.2em 0!important;
+float:left;
+width:100%!important;
+}
+
+#idc-container .idc-thread-h a{
+font-size:11px;
+line-height:1.3em;
+float:left;
+margin:0 4px 0 0;
+}
+
+#idc-container .idc-thread-h .idc-right{
+font-size:10px;
+line-height:1.3em;
+}
+
+#idc-container .idc-thread_cover{
+background:url(http://intensedebate.com/themes/chameleon/images/idc-arrow.png) no-repeat 0 6px;
+padding:0 0 12px 18px;
+float:left;
+}
+
+#idc-container .idc-thread_cover .idc-thread{
+border:1px solid #eaeaea;
+padding:4px!important;
+}
+
+#idc-container .idc-thread_cover .idc-thread .idc-thread{
+border:none;
+padding:0;
+}
+
+#idc-container .idc-thread_cover .idc-c{
+background:none;
+padding:0;
+}
+
+#idc-container .idc-tb{
+padding:4px 0 0;
+}
+
+#idc-container .idc-tb h3{
+font-size:15px;
+line-height:1.3em;
+}
+
+#idc-container .idc-tb .idc-tb_i{
+font-size:10px;
+line-height:1.3em;
+}
+
+#idc-container .idc-ctools{
+clear:both;
+float:none;
+padding:.4em 0;
+}
+
+#idc-container .idc-ctools div,#idc-container .idc-ctools p{
+float:none;
+}
+
+#idc-container .idc-ctools a{
+margin:0 3px 0 0;
+}
+
+#idc-container .idc-ctools .idc-sel{
+font-weight:bold;
+}
+
+.idc .idc-useopenid{
+float:left!important;
+clear:none!important;
+display:block!important;
+}
+
+.idc-c .idc-useopenid{
+margin:5px 0 0;
+}
+
+.idc-head .idc-openid .idc-useopenid{
+clear:left!important;
+}
+
+#idc-container .idc-c.idc-trackback h2{
+font-size:15px;
+line-height:1.3em;
+}
+
+#idc-container .idc-trackbackinfo{
+font-size:10px;
+float:none;
+}
+
+#idc-container .idc-c{
+clear:both;
+float:left;
+padding:.4em 0 0;
+width:auto;
+}
+
+#idc-container .idc-c div{
+float:left;
+width:auto;
+}
+
+#idc-container .idc-c .idc-c-h{
+background:url(http://intensedebate.com/themes/universal/images/idc-transparent-0404.png) 100% 0;
+margin:0 0 .3em;
+padding:1px 0 0;
+width:100%;
+}
+
+#idc-container .idc-c-h .idc-right{
+padding:6px 2px 0 0;
+}
+
+#idc-container .idc-c-t{
+margin:0 0 .3em;
+clear:both;
+}
+
+#idc-container .idc-c-t div{
+overflow:hidden;
+}
+
+#idc-container.idc .idc-c-m{
+clear:both;
+overflow:hidden;
+width:100%;
+}
+
+#idc-container .idc-c-cover{
+width:100%;
+}
+
+#idc-container.idc .idc-c-b{
+clear:both;
+min-height:22px;
+width:100%;
+}
+
+#idc-container .idc-c-b ul{
+width:auto;
+}
+
+#idc-container .idc .idc-c-b .idc-c-b_info{
+font-size:10px;
+line-height:1.3em;
+}
+
+#idc-container .idc-c .idc-c-h_u{
+padding:7px 0 0;
+#fff-space:nowrap;
+}
+
+#idc-container .idc-c .idc-c-h_u span,#idc-container .idc-c .idc-c-h_u a{
+float:left;
+margin:0 3px 0 0;
+}
+
+#idc-container .idc-reply .idc-c-h_u a{
+float:none;
+}
+
+#idc-container .idc-c-h_u ul{
+margin:0;
+}
+
+#idc-container .idc-c-h_u li{
+margin:0 .3em 0 0;
+}
+
+#idc-container .idc-anonymous .idc-c-h_u{
+padding:8px 0 0;
+}
+
+#idc-container .idc-c-h_a{
+height:28px;
+margin:0 .4em 0 0;
+padding:1px;
+width:28px!important;
+}
+
+#idc-container .idc-c-h_a a{
+background:none;
+}
+
+#idc-container .idc-c-h_a img,#idc-container .idc-anonymous .idc-c-h_a img:hover{
+padding:1px;
+width:26px;
+height:26px;
+}
+
+#idc-container .idc-c-h_a img:hover{
+padding:0;
+width:28px;
+height:28px;
+}
+
+#idc-container .idc-c.idc-error h5{
+background:#c00;
+color:#fff;
+padding:1px 2px;
+}
+
+#idc-container .idc-friend .idc-c-h{
+background-position:100% -50px;
+}
+
+#idc-container .idc-admin .idc-c-h{
+background-position:100% -100px;
+}
+
+#IDCommentsNewThreadCover .idc-thread,#IDCommentsNewThreadCover .idc-c{
+margin:0!important;
+padding:0!important;
+width:100%!important;
+}
+
+#idc-container .idc-reply .idc-c-m{
+display:none;
+overflow:visible;
+}
+
+.idc-openid_signup .idc-openid_signup,.idc-signup .idc-signup{
+display:block;
+}
+
+#idc-container .idc-divide span{
+float:left;
+clear:both;
+margin:0 0 .4em;
+}
+
+#idc-container .idc-c-m .idc-text,#idc-container .idc-c-m label{
+width:45%;
+clear:none;
+float:left;
+display:block;
+overflow:hidden;
+vertical-align:middle;
+}
+
+#idc-container .idc-c-m label{
+padding:4px 0 0;
+}
+
+#idc-container .idc-c-m .idc-text{
+clear:left;
+}
+
+#idc-container .idc-c-m .idc-create{
+clear:both;
+padding:0 0 15px;
+#fff-space:nowrap;
+width:100%;
+}
+
+#idc-container .idc-c-m .idc-create *{
+display:inline;
+float:none;
+padding:0;
+#fff-space:nowrap;
+}
+
+#idc-container .idc-info.idc-disable{
+background:url(http://intensedebate.com/themes/chameleon/images/id-fade2.png);
+z-index:4500;
+position:relative;
+width:100%;
+float:left;
+}
+
+#idc-container .idc-info.idc-disable div p{
+margin:0 0 2px;
+}
+
+#idc-container .idc-info.idc-disable{
+position:relative;
+}
+
+#idc-container .idc-info{
+left:50%;
+margin:0 0 0 -156px;
+position:fixed;
+top:20%!important;
+width:313px;
+z-index:8000;
+}
+
+#idc-container .idc-info div{
+width:auto;
+position:relative;
+}
+
+#idc-container .idc-head .idc-comments-main .idc-info div{
+background:none;
+}
+
+#idc-container .idc-info div div{
+background:url(http://intensedebate.com/themes/chameleon/images/idc-info.png) no-repeat top left;
+width:273px!important;
+float:left;
+padding:10px 20px 0;
+margin:0;
+}
+
+#idc-container .idc-info div div div{
+width:100%!important;
+background:none!important;
+padding:0;
+}
+
+#idc-container .idc-info div div.idc-bottom{
+background-position:bottom left!important;
+height:10px;
+width:313px!important;
+padding:0;
+clear:both;
+}
+
+#idc-container .idc-info div h6{
+font-size:15px!important;
+line-height:1.3em!important;
+font-weight:bold;
+margin:.6em 0;
+color:#fff;
+}
+
+#idc-container .idc-info div div p{
+float:left;
+font-size:13px;
+line-height:1.3em;
+margin:0 0 8px;
+color:#fff;
+clear:both;
+width:250px!important;
+}
+
+#idc-container .idc-info div ul{
+width:100%!important;
+}
+
+#idc-container .idc-info div ul li{
+margin:0 0 5px;
+float:left;
+clear:both;
+padding:0 0 0 17px!important;
+font-size:13px;
+background:url(http://intensedebate.com/themes/chameleon/images/id-icon_s_tick.png) no-repeat 0 0;
+color:#fff;
+width:90%;
+}
+
+#idc-container .idc-info div p.idc-bottom{
+margin:10px 0 2px;
+width:90%;
+height:auto;
+}
+
+#idc-container .idc-info div div.idc-bottom{
+width:313px;
+}
+
+#idc-container .idc-info div .idc-close{
+margin:0 -8px 0 0;
+}
+
+#idc-container .idc-info div .idc-close span,#idc-container .idc-close span{
+display:none;
+}
+
+#idc-container .idc-info div div div a{
+color:#fff;
+}
+
+#idc-container .idc-info div div div a:hover{
+color:#def4ff;
+}
+
+#idc-container .idc-info form{
+float:left;
+background:#fff;
+padding:5px;
+width:85%;
+margin:0;
+}
+
+#idc-container .idc-info form p.error{
+background:#ffc;
+clear:both;
+color:#333;
+padding:3px;
+float:none;
+width:auto!important;
+}
+
+#idc-container .idc-info form textarea{
+width:224px;
+height:60px;
+margin:0 0 6px!important;
+overflow-x:hidden;
+}
+
+#idc-container .idc-info form a{
+color:#000!important;
+clear:both!important;
+float:left;
+}
+
+#idc-container .idc-info label{
+font-size:12px;
+line-height:1.3em;
+color:#666;
+}
+
+#idc-container .idc-info input{
+clear:both;
+margin:0 0 4px;
+width:224px;
+}
+
+#idc-container .idc-info .idc-highlight{
+background:#333;
+color:#4EBDF0;
+padding:1px 2px;
+}
+
+.idc-loaded{
+background:#FFF;
+width:1px!important;
+height:1px;
+padding:0!important;
+position:absolute!important;
+top:0;
+left:0;
+z-index:-1;
+visibility:hidden;
+}
+
+#idc-container .idc-rss{
+background:url(http://intensedebate.com/themes/universal/images/idc-transparent-0404.png) no-repeat 0 -24px;
+display:block;
+float:left;
+height:10px;
+margin:0 3px 0 0;
+width:10px;
+overflow:hidden;
+}
+
+#idc-container .idc-rss:hover{
+background-position:0 -34px;
+}
+
+#idc-container .idc-rep{
+cursor:help;
+display:block;
+float:left;
+height:14px;
+margin:2px 0 0!important;
+}
+
+#idc-container .idc-c .idc-rep span{
+background:url(http://intensedebate.com/themes/universal/images/idc-transparent-0404.png) -566px -150px;
+float:left;
+height:14px;
+width:5px;
+margin:0!important;
+}
+
+#idc-container .idc-c .idc-rep .idc-r{
+background-position:100% -150px;
+width:auto;
+height:12px;
+padding:2px 5px 0 0;
+color:#333;
+float:left!important;
+font-family:Helvetica,Arial,sans-serif;
+font-size:12px;
+line-height:10px!important;
+margin:0!important;
+}
+
+#idc-container .idc-rep.idc-level2 span{
+background-position:-566px -178px;
+}
+
+#idc-container .idc-rep.idc-level2 .idc-r{
+background-position:100% -178px;
+color:#424b20;
+}
+
+#idc-container .idc-rep.idc-level1 span{
+background-position:-566px -164px;
+}
+
+#idc-container .idc-rep.idc-level1 .idc-r{
+background-position:100% -164px;
+color:#667726;
+}
+
+#idc-container .idc-rep.idc-level-1 span{
+background-position:-566px -192px;
+width:17px;
+}
+
+#idc-container .idc-rep.idc-level-1 .idc-r{
+background-position:100% -192px;
+color:#fff;
+width:auto;
+}
+
+#idc-container .idc-official,#idc-container .idc-helper{
+background:url(http://intensedebate.com/themes/universal/images/idc-transparent-0404.png) no-repeat;
+height:12px;
+margin:2px 3px 0 0;
+width:13px;
+}
+
+.idc-official span,.idc-helper span{
+display:none;
+}
+
+#idc-container .idc-helper{
+background-position:0 -12px;
+}
+
+#idc-container .idc-c-h_a .idc-m{
+display:none;
+margin:-3px 0 0 20px;
+position:absolute;
+width:196px;
+}
+
+#idc-container .idc-c-h_a .idc-m div div{
+background:url(http://intensedebate.com/themes/universal/images/idc-transparent-0404.png) no-repeat -621px -206px;
+display:block;
+min-height:20px;
+padding:5px 8px 0 9px;
+width:179px;
+float:left;
+}
+
+#idc-container .idc-c-h_a .idc-m .idc-m_b{
+background:url(http://intensedebate.com/themes/universal/images/idc-transparent-0404.png) no-repeat -621px 100%;
+padding:3px 8px 7px 9px;
+width:179px;
+}
+
+#idc-container .idc-m p{
+font-size:12px;
+line-height:1.3em;
+clear:both;
+margin:0!important;
+float:left!important;
+}
+
+#idc-container .idc-m-list li{
+background:url(http://intensedebate.com/themes/universal/images/idc-grey-0404.png) no-repeat 0 100%;
+border-top:1px solid #fff;
+padding:0 0 3px!important;
+}
+
+#idc-container .idc-m-list a{
+background:url(http://intensedebate.com/themes/universal/images/idc-grey-0404.png) no-repeat;
+color:#444!important;
+float:left;
+font-size:12px;
+line-height:1.3em;
+text-decoration:none;
+width:178px;
+}
+
+#idc-container .idc-m-list a span{
+background-repeat:no-repeat;
+background-position:1px 2px;
+float:left;
+padding:3px 2px 3px 21px;
+width:153px;
+}
+
+#idc-container .idc-m-list a:hover{
+background-position:-178px 0;
+color:#000!important;
+text-decoration:underline;
+}
+
+#idc-container .idc-m-list a:active{
+background-position:-356px 0;
+color:#000;
+}
+
+#idc-container .idc-m-list a:active span{
+background-position:1px 3px;
+padding:4px 2px 2px 21px!important;
+}
+
+#idc-container .idc-m-list a img{
+margin:0 4px -3px 0;
+}
+
+#idc-container .idc-m-list .idc-idprofile{
+background:none;
+}
+
+#idc-container .idc-m-list .idc-idprofile a{
+background:none;
+padding:0!important;
+}
+
+#idc-container .idc-m-list .idc-idprofile a span{
+background:none;
+padding:3px 2px!important;
+width:174px;
+}
+
+#idc-container .idc-m-list .idc-idprofile a span:active{
+padding:4px 2px 2px!important;
+}
+
+#idc-container p.idc-about{
+padding:0 0 3px;
+}
+
+#idc-container p.idc-about .idc-m-inner,#idc-container p.idc-twitter .idc-m-inner{
+text-decoration:underline;
+}
+
+#idc-container p.idc-about .idc-m-inner{
+background:#454545 url(http://intensedebate.com/themes/universal/images/idc-m-msg.png) 0 -75px;
+color:#fff!important;
+float:left;
+font-size:11px;
+line-height:1.3em;
+text-decoration:none;
+width:179px;
+}
+
+#idc-container p.idc-about .idc-m-inner span{
+background:url(http://intensedebate.com/themes/universal/images/idc-grey-0404.png) no-repeat -534px 0;
+float:left;
+}
+
+#idc-container p.idc-about .idc-m-inner span span{
+background:url(http://intensedebate.com/themes/universal/images/idc-grey-0404.png) no-repeat -534px 100%;
+overflow:hidden;
+padding:2px 3px;
+width:173px;
+}
+
+#idc-container p.idc-twitter{
+padding:0 0 3px;
+}
+
+#idc-container p.idc-twitter .idc-m-inner{
+background:#454545 url(http://intensedebate.com/themes/universal/images/idc-m-twitter.png) 0 -150px;
+color:#fff!important;
+float:left;
+font-size:11px;
+line-height:1.3em;
+text-decoration:none;
+width:179px;
+}
+
+#idc-container p.idc-twitter .idc-m-inner span{
+background:url(http://intensedebate.com/themes/universal/images/idc-color-0404.png) no-repeat -349px 0;
+float:left;
+}
+
+#idc-container p.idc-twitter .idc-m-inner span span{
+background:url(http://intensedebate.com/themes/universal/images/idc-grey-0404.png) no-repeat -534px 100%;
+overflow:hidden;
+padding:2px 3px;
+width:173px;
+}
+
+#idc-container p.idc-twitter .idc-twitter_t{
+float:left;
+font-weight:bold;
+font-style:normal;
+padding:0 0 3px 18px;
+width:164px;
+}
+
+#idc-container .idc-m-inner a{
+color:#fff!important;
+}
+
+#idc-container .idc-m-inner strong{
+font-weight:normal;
+text-decoration:underline;
+}
+
+#idc-container .idc-m-inner .idc-date{
+color:#b2ebee;
+}
+
+#idc-container.idc .idc-befriend1,#idc-container.idc .idc-befriend2,#idc-container.idc .idc-edit_profile,#idc-container.idc .idc-rssc,#idc-container.idc .idc-befriend{
+background:url(http://intensedebate.com/themes/universal/images/idc-color-0404.png) no-repeat;
+display:block;
+float:left;
+height:20px;
+width:80px;
+}
+
+#idc-container.idc .idc-rssc{
+background:url(http://intensedebate.com/themes/universal/images/idc-color-0404.png) no-repeat -80px 0;
+margin:0 0 0 3px;
+width:96px;
+}
+
+#idc-container.idc .idc-befriend1{
+background:url(http://intensedebate.com/themes/universal/images/idc-color-0404.png) no-repeat -176px 0;
+}
+
+#idc-container.idc .idc-befriend2{
+background:url(http://intensedebate.com/themes/universal/images/idc-color-0404.png) no-repeat -176px -20px;
+}
+
+#idc-container.idc .idc-edit_profile{
+background:url(http://intensedebate.com/themes/universal/images/idc-color-0404.png) no-repeat -256px 0;
+}
+
+#idc-container.idc .idc-befriend:hover{
+background-position:0 -20px;
+}
+
+#idc-container.idc .idc-befriend:active{
+background-position:0 -40px;
+}
+
+#idc-container.idc .idc-rssc:hover{
+background-position:-80px -20px;
+}
+
+#idc-container.idc .idc-rssc:active{
+background-position:-80px -40px;
+}
+
+#idc-container.idc .idc-edit_profile:hover{
+background-position:-256px -20px;
+}
+
+#idc-container.idc .idc-edit_profile:active{
+background-position:-256px -40px;
+}
+
+#idc-container .idc-edit_profile span,#idc-container .idc-befriend1 span,#idc-container .idc-befriend2 span,#idc-container .idc-rssc span,#idc-container .idc-befriend span{
+display:none;
+}
+
+#idc-container .idc-c-h_a .idc-m div .idc-m-loading{
+background:none;
+color:#999;
+min-height:0;
+padding:10px 8px 0 9px;
+position:absolute;
+text-align:center;
+width:179px;
+}
+
+#idc-container.idc .idc-m-loading img{
+display:inline;
+height:32px;
+padding:0;
+width:32px;
+}
+
+#idc-container .idc-popup{
+background:url(images/a.png);
+left:0;
+height:100%;
+position:fixed;
+top:0;
+width:100%;
+display:none;
+}
+
+#idc-container .idc-popup .idc-inner{
+background:#fff;
+border-right:2px solid #000;
+border-bottom:2px solid #000;
+color:#222;
+margin:5% auto 0;
+width:45%;
+}
+
+#idc-container .idc-popup div div{
+background:#fff;
+padding:10px;
+}
+
+#idc-container .idc-popup a{
+color:#222;
+text-decoration:underline;
+}
+
+#idc-container .idc-popup .idc-popup_h{
+border-bottom:1px solid #666;
+}
+
+#idc-container .idc-popup .idc-popup_h p{
+font-size:22px;
+line-height:1.3em;
+}
+
+#idc-container .idc-popup_m{
+border-top:1px solid #ccc;
+}
+
+#idc-container .idc-popup_m p{
+padding:0 0 10px;
+}
+
+#idc-container .idc-popup_b{
+height:20px;
+}
+
+#idc-container .idc-popup .idc-popup_box{
+background:url(images/a.png);
+border:2px solid #fff;
+color:#fff;
+float:left;
+margin:0 -22px;
+padding:10px 20px;
+width:100%;
+}
+
+#idc-container .idc-popup_box label,#idc-container .idc-popup_box .idc-text{
+margin:0 8px 0 0;
+}
+
+#idc-container .idc-popup-tight{
+float:left;
+min-height:30px;
+}
+
+#idc-container .idc-popup_box p{
+clear:left;
+}
+
+#idc-container .idc-popup_box a{
+color:#fff;
+}
+
+#idc-container .idc-popup_menu{
+margin:0 0 10px;
+width:100%;
+}
+
+#idc-container .idc-popup_menu li{
+margin:-2px 10px 0 0;
+}
+
+#idc-container .idc-popup_menu a{
+float:left;
+display:block;
+padding:8px 4px 4px!important;
+}
+
+#idc-container .idc-popup_menu a:hover{
+background:#eee;
+}
+
+#idc-container .idc-popup_menu .idc-sel a{
+background:url(images/a2.png) no-repeat 50% 0;
+font-weight:bold;
+}
+
+#idc-container .idc-share{
+color:#444;
+float:right;
+display:block;
+}
+
+#idc-container .idc-share .idc-share_inner{
+background:#fff;
+border:1px solid #ccc;
+display:none;
+float:right;
+clear:none;
+margin:17px 0 0;
+padding:10px;
+position:absolute;
+right:0;
+width:228px;
+}
+
+#idc-container .idc-share_inner div{
+width:100%;
+}
+
+#idc-container .idc-share_inner a{
+color:#444;
+text-decoration:none;
+}
+
+#idc-container .idc-share_inner a:hover{
+background-color:none!important;
+text-decoration:underline;
+}
+
+#idc-container .idc-share-tabs{
+background:url(http://intensedebate.com/themes/universal/images/idc-share.png) no-repeat 100% 100%;
+float:none;
+height:21px;
+padding:0 2px;
+margin:0 0 6px;
+}
+
+#idc-container .idc-share-tabs a{
+color:#222;
+float:left;
+padding:0 0 0 10px!important;
+}
+
+#idc-container .idc-share-tabs a span{
+float:left;
+height:19px;
+padding:2px 10px 0 0!important;
+#fff-space:nowrap;
+}
+
+#idc-container .idc-share-tabs .idc-sel a{
+background:url(http://intensedebate.com/themes/universal/images/idc-share.png) no-repeat -220px 0;
+text-decoration:none;
+}
+
+#idc-container .idc-share-tabs .idc-sel a span{
+background:url(http://intensedebate.com/themes/universal/images/idc-share.png) no-repeat 100% 0;
+}
+
+#idc-container .idc-share .idc-b{
+border-top:1px solid #ccc;
+float:left;
+margin:6px 0 0;
+padding:4px 0;
+width:100%;
+}
+
+#idc-container .idc-share .idc-share-list{
+width:110px;
+}
+
+#idc-container .idc-share .idc-share-list li{
+clear:both;
+padding:0 0 3px!important;
+}
+
+#idc-container .idc-share .idc-share-list li a{
+float:left;
+}
+
+#idc-container .idc-share p{
+padding:0 0 6px;
+}
+
+#idc-container .idc-head .idc-right{
+width:220px;
+}
+
+#idc-container .idc-head .idc-head_action .idc-right{
+width:auto;
+}
+
+#idc-container .idc-head_tools-login,#idc-container .idc-head_tools-share{
+background:url(http://intensedebate.com/themes/universal/images/idc-head_tools.png) no-repeat;
+float:left;
+height:18px;
+margin:0 0 0 2px;
+width:54px;
+}
+
+#idc-container .idc-head_tools-login{
+float:right;
+}
+
+#idc-container .idc-head_tools-login span,#idc-container .idc-head_tools-share span{
+display:none;
+}
+
+#idc-container .idc-head_tools-share{
+background-position:100% 0;
+width:161px;
+}
+
+#idc-container .idc-head_tools-share:hover{
+background-position:100% 100%;
+}
+
+#idc-container .idc-head_tools-login:hover{
+background-position:0 100%;
+}
+
+#idc-container .idc-c-h_vote{
+margin:0;
+}
+
+#idc-container .idc-c-h_vote li{
+margin:0 3px 0 0;
+}
+
+#idc-container .idc-c-h_vote li.idc-votes{
+margin:1px 6px 0 0;
+}
+
+#idc-container .idc-btn_vote{
+width:17px;
+height:18px;
+background:url(http://intensedebate.com/themes/universal/images/idc-transparent-0404.png) no-repeat 0 -177px;
+display:block;
+}
+
+#idc-container .idc-btn_vote span{
+display:none;
+}
+
+.idc-btn_vote:hover{
+background-color:transparent!important;
+}
+
+#idc-container .idc-up:hover{
+background-position:0 -195px;
+}
+
+#idc-container .idc-voted .idc-up{
+background-position:0 -231px;
+}
+
+#idc-container .idc-down{
+background-position:-18px -177px;
+}
+
+#idc-container .idc-down:hover{
+background-position:-18px -195px;
+}
+
+#idc-container .idc-voted .idc-down{
+background-position:-18px -231px;
+}
+
+#idc-container .idc-voted a{
+cursor:default!important;
+}
+
+#idc-container .idc-id{
+background:url(http://intensedebate.com/themes/universal/images/idc-transparent-0404.png) no-repeat 0 -150px;
+width:80px;
+height:26px;
+margin:2px 0 0;
+float:left;
+}
+
+#idc-container .idc-id span{
+display:none;
+}
+
+#idc-container .idc-thread .idc-thread .idc-thread{
+padding:0 0 0 18px!important;
+}
+
+#idc-container .idc-thread .idc-thread .idc-c{
+background:url(http://intensedebate.com/themes/universal/images/idc-grey-0404.png) no-repeat -1533px -104px;
+padding:5px 0 0 18px;
+}
+
+#idc-container .idc-thread.idc-collapse .idc-thread{
+display:none;
+}
+
+#idc-container .idc-thread_info{
+clear:both;
+display:none;
+float:left;
+padding:0 0 .8em;
+}
+
+#idc-container .idc-thread.idc-collapse .idc-thread_info{
+display:block;
+}
+
+#idc-container .idc-thread_info div{
+padding:8px 8px 8px 26px;
+background:url(http://intensedebate.com/themes/universal/images/idc-grey-0404.png) no-repeat -1527px -108px;
+float:left;
+}
+
+#idc-container .idc-thread_info h5{
+margin:0;
+}
+
+#idc-container .idc-collapselink{
+background-image:url(http://intensedebate.com/themes/chameleon/images/idc-collapselink.png);
+background-position:0 75%;
+background-repeat:no-repeat;
+display:block;
+overflow:hidden;
+padding:0 0 0 10px!important;
+}
+
+#idc-container .idc-collapse .idc-collapselink{
+background-position:0 25%;
+}
+
+#idc-container .idc-thread-h{
+display:block!important;
+}
+
+#idc-container .idc-btn_s{
+background:none;
+float:left;
+margin:0!important;
+padding:0;
+#fff-space:nowrap;
+}
+
+#idc-container .idc-btn_s span{
+background:url(http://intensedebate.com/themes/universal/images/idc-btn_s.png) no-repeat;
+display:block;
+float:left;
+height:22px;
+width:5px;
+}
+
+#idc-container .idc-btn_s:hover span{
+background-position:0 100%;
+}
+
+#idc-container .idc-btn_s .idc-r{
+background-position:100% 0;
+padding:2px 5px 0 0!important;
+height:20px;
+font-size:10px!important;
+line-height:1.3em;
+text-transform:uppercase;
+margin:0!important;
+color:#000;
+float:left!important;
+width:auto;
+}
+
+#idc-container .idc-btn_s .idc-r strong{
+text-transform:uppercase;
+}
+
+#idc-container .idc-btn_s:hover .idc-r{
+color:#666;
+background-position:100% 100%!important;
+}
+
+#idc-container span.idc-btn_s span{
+color:#ccc!important;
+}
+
+#idc-container span.idc-btn_s:hover span{
+background-position:0 0;
+}
+
+#idc-container span.idc-btn_s:hover .idc-r{
+background-position:100% 0;
+}
+
+#idc-container .idc-disablestyles{
+border:none!important;
+font-family:Arial,Helvetica,sans-serif!important;
+font-weight:normal!important;
+text-decoration:none!important;
+}
+
+#idc-container .idc-divider{
+display:none;
+}
+
+#idc-container .idc-head .idc-divider{
+display:inline;
+float:none;
+}
+
+#idc-container .idc-c .idc-divider{
+margin:1px .3em 0!important;
+}
+
+#idc-container .idc-head .idc-btn_s{
+margin:0 0 0 6px;
+}
+
+#idc-container .idc-c .idc-load,#idc-container .idc-head .idc-tools a{
+float:left!important;
+}
+
+#idc-container .idc-c .idc-load{
+height:12px;
+width:12px;
+}
+
+#idc-container .idc-c-b .idc-right a,#idc-container .idc-c-b .idc-loadtext{
+float:left;
+margin:2px 4px 0 0;
+}
+*/

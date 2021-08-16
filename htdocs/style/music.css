@@ -1,0 +1,197 @@
+/*
+-----------------------------------------------
+pinciuc.com photos style
+Author:   Rob Pinciuc
+Version:  27 Jan 2005
+----------------------------------------------- */
+
+/* Imported Styles
+----------------------------------------------- */
+@import url("base.css");
+
+body {
+  background:#600 url('../images/bg-black.gif');
+  color:#eee;
+} 
+
+#content {
+  background:#600 url('../images/gradient-light-600.gif') repeat-x;
+  color:#eee;
+}
+
+input,textarea,select,button {
+  background:#fff;
+  color:#000;
+}
+input:focus,select:focus,textarea:focus {
+  background:#ccc;
+  color:#000;
+}
+
+a {
+  color:#cc9;
+  border-bottom: 1px dotted #cc9;
+}
+a:hover {
+  border-bottom: 1px solid #cc9;
+}
+
+p.error {
+  color:#900;
+  background:#fff;
+}
+
+#header-image {
+  background:#000 url('../images/header-brown.jpg') no-repeat;
+  width:750px;
+  height:75px;
+}
+
+.tracklist {
+  padding-bottom:20px;
+  margin-bottom:20px;
+  display:block;
+}
+
+.tracklist .track {
+  display:block;
+  clear:both;
+}
+
+.track .trackNumber, .track .trackTitle, .track .trackArtist, .track .trackLength {
+  float:left;
+  vertical-align:top;
+  line-height:1.4em;
+  padding:2px;
+  margin-left:2px;
+}
+
+.track .trackNumber {
+  width:30px;
+  text-align:right;
+}
+
+.track .trackTitle {
+  width:180px;
+}
+
+.track .trackArtist {
+  width:120px;
+  font-style:italic;
+}
+
+.track .trackLength {
+  width:50px;
+  text-align:right;
+}
+
+.cover {
+  padding:2px;
+  border:1px solid #ccc;
+}
+
+.small-album-list {
+  margin:0;
+  padding:0 0 12px 0;
+  float:left;
+  width:270px;
+}
+
+.small-album-list img {
+  float:left;
+  margin-right:5px;
+}
+
+
+#artist-browse {
+  margin:0;
+  padding:0;
+  padding-right:10px;
+  width:424px;
+  float:left;
+}
+
+#feature-albums {
+  margin-top:37px;
+  padding:0;
+  border-left:1px dotted #999;
+  padding-left:10px;
+  width:270px;
+  float:left;
+}
+
+#feature-albums h3 {
+  margin-bottom:0;
+}
+
+#music-search label,input,textarea,button {
+  display:block;
+  float:left;
+  width:auto;
+  padding:0 5px 0 0;
+  margin-bottom:10px;
+}
+
+#music-search br {
+  clear:left;
+}
+
+#browse-left {
+  float:left;
+  width:200px;
+}
+#browse-right {
+  float:left;
+  width:200px;
+  padding-left:15px;
+}
+
+#artist-albums, #credited-albums {
+  margin-top:20px;
+  clear:both;
+}
+
+#artist-albums li, #credited-albums li {
+  display:block;
+  text-align:center;
+  float:left;
+  width:100px;
+  height:150px;
+  margin-right:5px;
+}
+#artist-albums li .year, #credited-albums li .year {
+  font-style:italic;
+  color:#ccc;
+}
+
+#album-display img {
+  float:left;
+  margin-right:10px;
+  margin-bottom:20px;
+}
+
+#allmusic-link {
+  padding:12px 0 0 20px;
+  clear:both;
+}
+
+#id3-table {
+  width:500px;
+}
+#id3-table th {
+  width:125px;
+  position:relative;
+  top:0;
+}
+#id3-table td {
+  width:375px;
+  position:relative;
+  top:0;
+}
+
+#recent-album-adds th, #recent-album-plays th, #recent-track-plays th, #most-track-plays th {
+  padding:1px 5px;
+}
+#recent-album-adds td, #recent-album-plays td, #recent-track-plays td, #most-track-plays td {
+  padding:1px 5px;
+}
